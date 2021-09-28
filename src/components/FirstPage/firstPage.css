@@ -28,6 +28,8 @@
     position: absolute;
     top: 200px;
     left: 862px;
+    overflow: hidden;
+    z-index: 1;
 }
 .pinkSperm2 {
     position: absolute;

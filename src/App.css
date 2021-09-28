@@ -1,7 +1,7 @@
 .homeBtn {
   position: fixed;
-  margin-top: 28px;
-  margin-left: 134px;
+  top: 28px;
+  left: 134px;
 }
 .bottomDescr {
   bottom: 23px;
