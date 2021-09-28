@@ -1,0 +1,56 @@
+.virus7 {
+    position: absolute;
+    top: 72px;
+    right: 899px;
+}
+.virus5 {
+    position: absolute;
+    top: 61px;
+    right: 210px;
+}
+.virus4 {
+    position: absolute;
+    bottom: -128px;
+    left: 542px;
+}
+.pinkSperm1{
+    position: absolute;
+    left: 456px;
+    top: 155px;
+    z-index: 1;
+}
+.bakti1 {
+    position: absolute;
+    right: 928px;
+    top: 503px;
+}
+.virus8 {
+    position: absolute;
+    top: 200px;
+    left: 862px;
+}
+.pinkSperm2 {
+    position: absolute;
+    right: 745px;
+    top: 593px;
+}
+.virus4Copy {
+    position: absolute;
+    top: 631px;
+    right: 592px;
+}
+.virus4Copy2 {
+    position: absolute;
+    right: 36px;
+    top: 30px;
+}
+.textContent {
+    position: absolute;
+    top: 162px;
+    left: 78px;
+}
+.btnNext {
+    position: absolute;
+    left: 636px;
+    top: 463px;
+}
