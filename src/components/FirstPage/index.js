@@ -27,11 +27,11 @@ function FirstPage(){
     //     console.log(virus8Motion.current.focus())
     // },100000)
 
-    const transitionVirus8 ={
-        loop: Infinity,
-        duration: 12,
-        // times: [0, 0.2, 1]
-    }
+    // const transitionVirus8 ={
+    //     loop: Infinity,
+    //     duration: 12,
+    //     // times: [0, 0.2, 1]
+    // }
 
     return (
         <div>
@@ -41,8 +41,7 @@ function FirstPage(){
             <img className='pinkSperm1' src={pinkSperm1} alt='pink sperm 1'/>
             <img className='bakti1' src={bakti1} alt='bacteria'/>
             <img className='pinkSperm2' src={pinkSperm2} alt='pink sperm 2'/>
-            <motion.img className='virus8' src={virus8} alt='virus 8'
-            animate={{x: [0, -90, -120, -60, -30, 0], y: [0,-40,-100,-40, 0], rotate: 360}} transition={transitionVirus8}/>
+            <img className='virus8' src={virus8} alt='virus 8'/>
             <img className='virus4Copy' src={virus4Copy} alt='virus 4 copy'/>
             <img className='virus4Copy2' src={virus4Copy2} alt='virus 4 copy 2'/>
             <img className='textContent' src={textContent} alt='text of content'/>
