@@ -7,11 +7,48 @@
     position: absolute;
     top: 61px;
     right: 210px;
+    overflow: hidden;
+    animation: virus5 8s infinite;
+}
+@keyframes virus5 {
+    30% {
+        right: 150px;
+        transform: scale(1.1);
+    }
+    60% {
+        right: 175px ;
+        top: 50px;
+        transform: scale(1.2);
+    }
+    100% {
+        top: 61px;
+        right: 210px;
+        transform: scale(1);
+    }
 }
 .virus4 {
     position: absolute;
     bottom: -128px;
     left: 542px;
+    overflow: hidden;
+    animation: virus4 8s infinite;
+}
+
+@keyframes virus4 {
+    25% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(0.9);
+        left: 520px;
+    }
+    75% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+        left: 542px;
+    }
 }
 .pinkSperm1{
     position: absolute;
@@ -23,6 +60,27 @@
     position: absolute;
     right: 928px;
     top: 503px;
+    overflow: hidden;
+    animation: bakti1 15s 0.2s infinite;
+}
+@keyframes bakti1 {
+    25% {
+        right: 870px;
+        top: 570px;
+    }
+    50% {
+        right: 928px;
+        top: 503px;
+    }
+    75% {
+        right: 890px;
+        top: 473px;
+    }
+    100% {
+        right: 928px;
+        top: 503px; 
+    }
+    
 }
 .virus8 {
     position: absolute;
@@ -54,6 +112,58 @@
         left: 862px;
     } 
 }
+/* @keyframes virus8 { 
+    10% {
+        transform:rotate(-60deg);
+        top: 180px;
+        left: 830px;
+    }
+    20% {
+        transform:rotate(-90deg);
+        top: 160px;
+        left: 810px;
+    }
+    30% {
+        transform:rotate(-120deg);
+        top: 140px;
+        left: 790px;
+    }
+    40% {
+        transform:rotate(-150deg);
+        top: 120px;
+        left: 770px;
+    }
+    50% {
+        transform:rotate(-180deg);
+        top: 100px;
+        left: 740px;
+    }
+    60% {
+        transform:rotate(-150deg);
+        top: 120px;
+        left: 800px;
+    }
+    70% {
+        transform:rotate(-120deg);
+        top: 140px;
+        left: 820px;
+    }
+    80% {
+        transform:rotate(-90deg);
+        top: 160px;
+        left: 830px;
+    }
+    90% {
+        transform:rotate(-60deg);
+        top: 180px;
+        left: 850px;
+    }
+    100% {
+        transform:rotate(0deg);
+        top: 200px;
+        left: 862px;
+    }
+} */
 .pinkSperm2 {
     position: absolute;
     right: 745px;
@@ -78,4 +188,5 @@
     position: absolute;
     left: 636px;
     top: 463px;
+    z-index: 1;
 }
