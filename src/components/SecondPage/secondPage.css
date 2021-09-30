@@ -7,3 +7,110 @@
     color: #242424;
     font-family: "D IN Pro";
 }
+.bodyTxt {
+    width: 775px;
+    height: 445px;
+    border-radius: 80px;
+    filter: drop-shadow(2.723px 4.193px 62.5px rgba(157,185,198,0.39));
+    background-color: #ffffff;
+    position: absolute;
+    top: 240px;
+    right: 130px;
+}
+.txt {
+    font-size: 23px;
+    overflow: scroll;
+    height: 390px;
+    margin: 30px;
+    overflow-x: hidden;
+    direction: rtl;
+    text-align: left;
+    padding-left: 20px;
+}
+.txt::-webkit-scrollbar {
+    width: 5px;           /* width of the entire scrollbar */
+    padding-right: 10px;
+}
+  
+.txt::-webkit-scrollbar-track {
+    background: #000000;        /* color of the tracking area */
+}
+  
+.txt::-webkit-scrollbar-thumb {
+    background-color: #da35a8;    /* color of the scroll thumb */
+    border-radius: 100px;       /* roundness of the scroll thumb */
+    border: 3px solid #da35a8;  /* creates padding around scroll thumb */
+  }
+/* .txt::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 10px; 
+}
+
+.txt::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 10px;
+} */
+.bigSperm{
+    position: absolute;
+    top: 98px;
+    left: 366px;
+    animation: bigSperm 2s  1;
+}
+@keyframes bigSperm {
+    0% {
+        top: 178px;
+        left: 466px;
+        opacity: 0;
+    }
+    100% {
+        top: 98px;
+        left: 366px;
+        opacity: 1;
+    }
+}
+.mediumSperm{
+    position: absolute;
+    top: 97px;
+    left: 626px;
+    animation: mediumSperm 2s  1;
+}
+@keyframes mediumSperm {
+    0% {
+        top: 177px;
+        left: 766px;
+        opacity: 0;
+    }
+    100% {
+        top: 97px;
+        left: 626px;
+        opacity: 1;
+    }
+}
+.smallSperm {
+    position: absolute;
+    top: 74px;
+    left: 752px;
+    animation: smallSperm 2s 1;
+}
+@keyframes smallSperm {
+    0% {
+        top: 154px;
+        left: 852px;
+        opacity: 0;
+    }
+    100% {
+        top: 74px;
+        left: 752px;
+        opacity: 1;
+    }
+}
+.smallSperm3 {
+    position: absolute;
+    left: 885px;
+    bottom: 42px;
+}
+.smallSperm2 {
+    position: absolute;
+    left: 889px;
+    top: 430px;
+}
